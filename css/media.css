@@ -1,0 +1,90 @@
+@media (max-width: 1700px) {
+    .menu{
+        height: 120px;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    .menu:hover{
+        height: 100%;
+    }
+    
+    .tab {
+        padding-top: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 1199px) {
+    .tagg__link {
+        padding: 30px;
+    }
+    
+    .texting__p {
+        margin: 0;
+    }
+    
+    form {
+        padding: 30px;
+    }
+}
+@media (max-width: 991px) {
+    .content {
+        margin-top: 20px;
+    }
+    
+    .tab__box {
+        margin-bottom: 20px;
+    }
+    
+    .tab__box {
+        height: 95%;
+    }
+    
+    .tag__ul{
+        display: block;
+        margin-top: 20px;
+    }
+    
+    .section{
+        background: #1d1b1b;
+        height: 100vh;
+        display: block;
+    }
+    
+    .dev {
+        height: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    .grid{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 561px) {
+    .texting__p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .texting__p {
+        font-size: 12px;
+    }
+    
+    .block .boxxx input {
+        margin-top: 10px;
+    }
+    
+    textarea {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 382px) {
+    .dev {
+        height: 500px;
+    }
+}
